@@ -1,0 +1,8 @@
+x1= int(input('Enter x1 :'))
+y1= int(input('Enter y1 :'))
+print('1st point :',x1,y1)
+x2= int(input('Enter x2 :'))
+y2= int(input('Enter y2 :'))
+print('2nd point :',x2,y2)
+r= ((((x2 - x1 )**2) + ((y2-y1)**2) )**0.5)
+print('Distance  :', r)
